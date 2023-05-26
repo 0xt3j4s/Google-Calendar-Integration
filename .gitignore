@@ -1,3 +1,7 @@
+/google_calendar_integ/google_calendar_integ/test_client_credentials.json
+/google_calendar_integ/google_calendar_integ/production_secret.txt
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

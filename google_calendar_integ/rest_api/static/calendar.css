@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+.calendar {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+.calendar h1 {
+    text-align: center;
+    color: #333;
+}
+
+.event-list {
+    margin-top: 20px;
+}
+
+.event {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.event h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.event p {
+    margin: 5px 0;
+    color: #777;
+}
+
+p.no-events {
+    text-align: center;
+    color: #777;
+}
