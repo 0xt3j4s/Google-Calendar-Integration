@@ -3,9 +3,11 @@
 This project implements Google Calendar integration using Django REST API. The project utilizes OAuth2 authentication to obtain events from user's calendar after getting the access to user's calendar. 
 
 
+
 ## Implementation
 - Used Django Framework to integrate Google Calendar. 
 - It does not rely on any third-party libraries other than Google's provided standard libraries.
+
 
 
 ## Getting Started
