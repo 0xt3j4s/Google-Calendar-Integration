@@ -41,10 +41,9 @@ def GoogleCalendarRedirectView(request):
         state=state
     )
     authorization_response = request.build_absolute_uri()
-
     authorization_response = authorization_response.replace("http", "https")
 
-    flow.fetch_token(authorization_response=authorization_response)
+    flow.fetch_token(authorization_response=authorization_response) # Fetches the access token
     credentials = flow.credentials
 
     # Get list of events [Starting from 1st May 2023 to 31st May 2023]
